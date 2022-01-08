@@ -1,0 +1,688 @@
+# Translation of Plugins - ThemeGrill Demo Importer - Stable (latest release) in Czech
+# This file is distributed under the same license as the Plugins - ThemeGrill Demo Importer - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2020-07-24 21:07:36+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n == 1) ? 0 : ((n >= 2 && n <= 4) ? 1 : 2);\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: cs_CZ\n"
+"Project-Id-Version: Plugins - ThemeGrill Demo Importer - Stable (latest release)\n"
+
+#: includes/admin/views/html-admin-page-importer.php:81
+#: includes/admin/views/html-admin-page-importer.php:169
+msgid "Premium"
+msgstr "Prémium"
+
+#: includes/class-demo-importer.php:213
+msgid "Confirm!"
+msgstr "Potvrdit!"
+
+#: includes/class-demo-importer.php:195
+msgid "None of the posts, pages, attachments or any other data already existing in your site will be deleted or modified."
+msgstr "Žádný z těchto příspěvků, stránek příloh nebo jiných údajů, které již existují ve vašem webu enbudou odstraněny nebo změněny."
+
+#: includes/class-demo-importer.php:196
+msgid "It will take some time to import the theme demo."
+msgstr "Bude to trvat nějaký čas, import theme demo."
+
+#. translators: Before import warning texts
+#: includes/class-demo-importer.php:190
+msgid "Importing demo data will ensure that your site will look similar as theme demo. It makes you easy to modify the content instead of creating them from scratch. Also, consider before importing the demo: %1$s %2$s %3$s %4$s %5$s %6$s"
+msgstr "Import demo dat zajistí, že vaše stránky budou vypadat podobně jako téma demo. Dělá vám snadno měnit obsah namísto jejich vytvoření od nuly. Také je třeba zvážit před importem demo: %1$s %2$s %3$s %4$s %5$s %6$s"
+
+#: includes/class-demo-importer.php:191
+msgid "Importing the demo on the site if you have already added the content is highly discouraged."
+msgstr "Import demo na webu, pokud jste již přidali obsah, důrazně se nedoporučuje."
+
+#: includes/class-demo-importer.php:192
+msgid "You need to import demo on fresh WordPress install to exactly replicate the theme demo."
+msgstr "Musíte importovat demo na čerstvém WordPress instalaci přesně replikovat téma demo."
+
+#: includes/class-demo-importer.php:193
+msgid "It will install the required plugins as well as activate them for installing the required theme demo within your site."
+msgstr "Bude nainstalovat požadované pluginy, jakož i aktivovat je pro instalaci požadovaného motivu ukázku v rámci vašeho webu."
+
+#: includes/class-demo-importer.php:194
+msgid "Copyright images will get replaced with other placeholder images."
+msgstr "Tyto obrázky chráněné autorským právem budou nahrazeny zástupnými obrázky."
+
+#. translators: %s: Theme Name
+#. translators: %s: Theme Name
+#: includes/admin/views/html-admin-page-importer.php:195
+#: includes/admin/views/html-admin-page-importer.php:204
+msgid "%s theme is not active."
+msgstr "%s šablona není aktivní"
+
+#: includes/admin/views/html-admin-page-importer.php:143
+msgid "Close"
+msgstr "Zavřít"
+
+#. translators: %s: official ThemeGrill themes URL
+#: includes/class-themegrill-demo-importer.php:268
+msgid "Official ThemeGrill Theme"
+msgstr "Official ThemeGrill Theme"
+
+#: includes/functions-demo-importer.php:34
+msgid "No plugin specified."
+msgstr "Plugin nebyl vybrán."
+
+#: includes/class-demo-importer.php:595
+msgid "%s Pro"
+msgstr "%s Pro"
+
+#. translators: %s: official ThemeGrill themes URL
+#: includes/class-themegrill-demo-importer.php:268
+msgid "This plugin requires %s to be activated to work."
+msgstr "Tento plugin vyžaduje %s, který bude aktivován"
+
+#: includes/admin/views/html-admin-page-importer.php:144
+msgctxt "Button label for a demo"
+msgid "Previous"
+msgstr "Předchozí"
+
+#: includes/admin/views/html-admin-page-importer.php:145
+msgctxt "Button label for a demo"
+msgid "Next"
+msgstr "Následující"
+
+#: includes/admin/views/html-admin-page-importer.php:116
+#: includes/admin/views/html-admin-page-importer.php:118
+#: includes/admin/views/html-admin-page-importer.php:147
+#: includes/admin/views/html-admin-page-importer.php:149
+#: includes/admin/views/html-admin-page-importer.php:257
+#: includes/admin/views/html-admin-page-importer.php:259
+msgid "Buy Now"
+msgstr "Koupit teď"
+
+#: includes/admin/views/html-admin-page-importer.php:274
+#: includes/class-demo-importer.php:209
+msgid "Collapse Sidebar"
+msgstr "Zmenšit postranní panel"
+
+#: includes/admin/views/html-admin-page-importer.php:223
+msgid "Required Plugins"
+msgstr "Požadované Plugins"
+
+#: includes/admin/views/html-admin-page-importer.php:246
+msgid "No plugins are required for this demo."
+msgstr "Žádné pluginy jsou nutné pro tento demo."
+
+#: includes/admin/views/html-admin-page-importer.php:22
+msgid "Upcoming Demos"
+msgstr "nadcházející Demos"
+
+#: includes/admin/views/html-admin-page-importer.php:54
+msgid "Without Page Builder"
+msgstr "Bez, tvůrce stránky"
+
+#: includes/admin/views/html-admin-page-importer.php:276
+msgid "Collapse"
+msgstr "Zmenšit"
+
+#: includes/admin/views/html-admin-page-importer.php:281
+msgid "Enter desktop preview mode"
+msgstr "Přejít do režimu náhledu PC"
+
+#: includes/admin/views/html-admin-page-importer.php:284
+msgid "Enter tablet preview mode"
+msgstr "Přejít do režimu náhledu tabletu"
+
+#: includes/admin/views/html-admin-page-importer.php:287
+msgid "Enter mobile preview mode"
+msgstr "Přejít do režimu náhledu mobilu"
+
+#. translators: %s: support forums URL
+#: includes/class-demo-importer.php:203
+msgid "An unexpected error occurred. Something may be wrong with ThemeGrill demo server&#8217;s configuration. If you continue to have problems, please try the <a href=\"%s\">support forums</a>."
+msgstr "Objevila se neočekávaná chyba. Patrně došlo k nějakému výpadku na straně  ThemeGrill demo server&#8217;s konfigurací. Pokud bude nadále docházet k podobným problémům, zkuste prosím kontaktovat oficiální <a href=\"%s\">fórum podpory</a>"
+
+#: includes/class-demo-importer.php:204
+msgid "Try Again"
+msgstr "Zkuste to prosím znovu"
+
+#: includes/class-demo-importer.php:205
+msgid "Please suggest us!"
+msgstr "Prosím doporučit nám!"
+
+#: includes/class-demo-importer.php:210
+msgid "Expand Sidebar"
+msgstr "Rozbalit postranní panel"
+
+#. translators: accessibility text
+#: includes/class-demo-importer.php:212
+msgid "Select one or more Demo features to filter by"
+msgstr "Vyberte jednu nebo více Demo funkcí pro filtry"
+
+#. translators: 1: ThemeGrill Demo Importer 2: five stars
+#: includes/class-demo-importer.php:242
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "Pokud se vám líbí %1$s, zanechte nám prosím hodnocení %2$s. Obrovské díky předem!"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1073
+msgid "Remote server did not respond"
+msgstr "Vzdálený server neodpověděl"
+
+#. Description of the plugin
+msgid "Import ThemeGrill official themes demo content, widgets and theme settings with just one click."
+msgstr "Import ThemeGrill oficiální témata demo obsah, widgety a nastavení motivu s pouhým jedním kliknutím."
+
+#: includes/admin/views/html-admin-page-importer.php:63
+msgid "Themes list"
+msgstr "Seznam šablon"
+
+#: includes/admin/views/html-admin-page-importer.php:89
+#: includes/admin/views/html-admin-page-importer.php:177
+msgid "Pro"
+msgstr "Pro"
+
+#. translators: %s: Number of plugins
+#: includes/functions-demo-importer.php:532
+msgid "%s plugin successfully installed."
+msgstr "%s plugin byl úspěšně nainstalován"
+
+#. translators: %s: Number of plugins
+#: includes/functions-demo-importer.php:539
+msgid "%s plugins successfully installed."
+msgstr "%s pluginů bylo úspěšně nainstalováno."
+
+#. translators: %s: Number of failed installs
+#: includes/functions-demo-importer.php:549
+msgid "%s install failed."
+msgstr "%s Instalace se nezdařila"
+
+#. translators: %s: Number of failed installs
+#: includes/functions-demo-importer.php:554
+msgid "%s installs failed."
+msgstr "%s Instalace se nezdařila"
+
+#: includes/functions-demo-importer.php:557
+msgid "Show more details"
+msgstr "Zobrazit více podrobností"
+
+#: includes/class-demo-importer.php:247
+msgid "Thank you for importing with ThemeGrill Demo Importer."
+msgstr "Děkuji za import s ThemeGrill Demo importem."
+
+#: includes/class-demo-importer.php:244
+msgid "Thanks :)"
+msgstr "Děkujeme :)"
+
+#: includes/class-demo-importer.php:281
+msgid "Community forum"
+msgstr "Komunitní fóra"
+
+#: includes/class-demo-importer.php:281
+msgid "ThemeGrill Support"
+msgstr "podpora ThemeGrill"
+
+#: includes/class-demo-importer.php:288 includes/class-demo-importer.php:290
+msgid "Found a bug?"
+msgstr "Našli jste nějakou chybu?"
+
+#: includes/class-demo-importer.php:308
+msgid "Official plugins"
+msgstr "Oficiální plugins"
+
+#: includes/admin/class-plugin-deactivate-notice.php:78
+#: includes/class-demo-importer.php:1334
+msgid "Action failed. Please refresh the page and retry."
+msgstr "Akce se nezdařila. Obnovte stránku a zkuste to znovu."
+
+#: includes/class-themegrill-demo-importer.php:50
+#: includes/class-themegrill-demo-importer.php:59
+msgid "Cheatin&#8217; huh?"
+msgstr "Nepodvádíte&#8217; co?"
+
+#: includes/class-demo-importer.php:267 includes/class-demo-importer.php:269
+msgid "Help &amp; Support"
+msgstr "Pomoc &amp; Podpora"
+
+#. translators: %s: Documentation URL
+#: includes/class-demo-importer.php:272
+msgid "Should you need help understanding, using, or extending ThemeGrill Demo Importer, <a href=\"%s\">please read our documentation</a>. You will find all kinds of resources including snippets, tutorials and much more."
+msgstr "Pokud budete potřebovat pomoct pochopit, používat, nebo prodloužení ThemeGrill Demo importu, <a href=\"%s\"> přečtěte si prosím dokumentaci </a>. Najdete zde všechny druhy zdrojů, včetně úryvků, cvičení a mnoho dalšího."
+
+#. translators: 1: WP support URL. 2: TG support URL
+#: includes/class-demo-importer.php:277
+msgid "For further assistance with ThemeGrill Demo Importer core you can use the <a href=\"%1$s\">community forum</a>. If you need help with premium themes sold by ThemeGrill, please <a href=\"%2$s\">use our free support forum</a>."
+msgstr "Pro další pomoc s ThemeGrill Demo importem jádra můžete použít fórum <a href=\"%1$s\"> </a>. Pokud potřebujete pomoc s touto nabídkou: prémiové témat prodávaných ThemeGrill, <a href=\"%2$s\"> používat našem fóru bez podpory </a>."
+
+#. translators: %s: GitHub links
+#: includes/class-demo-importer.php:293
+msgid "If you find a bug within ThemeGrill Demo Importer you can create a ticket via <a href=\"%1$s\">Github issues</a>. Ensure you read the <a href=\"%2$s\">contribution guide</a> prior to submitting your report. To help us solve your issue, please be as descriptive as possible."
+msgstr "Pokud najdete chybu v rámci ThemeGrill Demo importeru můžete vytvořit Ticket přes <a href=\"%1$s\"> problémy GitHub </a>. Ujistěte se, že si přečíst návod - příspěvek <a href=\"%2$s\"> </a> před odesláním zprávy. Aby nám pomohli vyřešit váš problém, prosím co nejvýstižnější."
+
+#: includes/class-demo-importer.php:297
+msgid "Report a bug"
+msgstr "Zpráva o chybě"
+
+#: includes/class-demo-importer.php:303
+msgid "For more information:"
+msgstr "Pro více informací:"
+
+#: includes/class-demo-importer.php:304
+msgid "About Demo Importer"
+msgstr "O Demo Importer"
+
+#: includes/class-demo-importer.php:305
+msgid "WordPress.org project"
+msgstr "WordPress.org project"
+
+#: includes/class-demo-importer.php:306
+msgid "Github project"
+msgstr "Github project"
+
+#: includes/class-demo-importer.php:307
+msgid "Official themes"
+msgstr "Officiální themes"
+
+#: includes/class-demo-importer.php:136
+msgctxt "Admin menu name"
+msgid "Demo Importer"
+msgstr "Demo Import"
+
+#: includes/class-demo-importer.php:200
+msgid "Search Demos"
+msgstr "vyhledávací Demos"
+
+#: includes/class-demo-importer.php:201
+msgid "Search demos..."
+msgstr "Vyhledávací demos..."
+
+#. translators: %d: Number of demos.
+#: includes/class-demo-importer.php:207
+msgid "Number of Demos found: %d"
+msgstr "Počet nalezených položek: %d"
+
+#: includes/admin/views/html-admin-page-importer.php:67
+#: includes/class-demo-importer.php:208
+msgid "No demos found. Try a different search."
+msgstr "Nebyly nalezeny žádné šablony. Zkuste to prosím znovu."
+
+#: includes/class-demo-importer.php:660
+msgid "No demo specified."
+msgstr "demo nespecifikováno."
+
+#: includes/class-demo-importer.php:676
+msgid "Sorry, you are not allowed to import content."
+msgstr "Nemáte dostatečné oprávnění pro import obsahu."
+
+#: includes/class-demo-importer.php:791
+msgid "The XML file dummy content is missing."
+msgstr "Obsah dummy soubor XML chybí."
+
+#: includes/class-demo-importer.php:887
+msgid "The DAT file customizer data is missing."
+msgstr "Personalizátor dat DAT soubor chybí."
+
+#: includes/class-demo-importer.php:912
+msgid "The WIE file widget content is missing."
+msgstr "Obsah souboru widgetu WIE chybí."
+
+#: includes/admin/class-demo-pack-upgrader.php:39
+msgid "Removing the old version of the demo&#8230;"
+msgstr "Odstraňování staré verze demo&#8230;"
+
+#: includes/admin/class-demo-pack-upgrader.php:40
+msgid "Could not remove the old demo."
+msgstr "Nelze odstranit starý demo."
+
+#. translators: %s: Demo author name
+#. translators: %s: Demo author name
+#. translators: 1. Plugin author name.
+#. translators: 1. Plugin author name.
+#: includes/admin/views/html-admin-page-importer.php:95
+#: includes/admin/views/html-admin-page-importer.php:184
+#: includes/admin/views/html-admin-page-system-status-report.php:287
+#: includes/admin/views/html-admin-page-system-status-report.php:334
+msgid "By %s"
+msgstr "Autor: %s"
+
+#. translators: %s: Demo name
+#: includes/admin/views/html-admin-page-importer.php:126
+msgctxt "demo"
+msgid "Import %s"
+msgstr "Import %s"
+
+#: includes/admin/views/html-admin-page-importer.php:136
+msgctxt "demo"
+msgid "Imported"
+msgstr "Import"
+
+#: includes/admin/views/html-admin-page-importer.php:153
+#: includes/admin/views/html-admin-page-importer.php:160
+#: includes/admin/views/html-admin-page-importer.php:263
+#: includes/admin/views/html-admin-page-importer.php:270
+msgid "Import Demo"
+msgstr "Import Demo"
+
+#. translators: %s: Demo version
+#: includes/admin/views/html-admin-page-importer.php:211
+msgid "Version: %s"
+msgstr "Verze: %s"
+
+#: includes/admin/views/html-admin-page-importer.php:218
+msgid "Plugins Information"
+msgstr "Informace o pluginu:"
+
+#: includes/class-demo-importer.php:708
+#: includes/functions-demo-importer.php:114
+msgid "Unable to connect to the filesystem. Please confirm your credentials."
+msgstr "Nelze se připojit k souborovému systému. Potvrďte své přihlašovací údaje."
+
+#: includes/class-themegrill-demo-importer.php:235
+msgid "View Demo Importer"
+msgstr "Prohlížeč Demo Importeru"
+
+#: includes/class-themegrill-demo-importer.php:251
+msgid "View Demo Importer Documentation"
+msgstr "View Demo import Dokumentace"
+
+#: includes/class-themegrill-demo-importer.php:251
+msgid "Docs"
+msgstr "Dokumenty"
+
+#: includes/class-themegrill-demo-importer.php:252
+msgid "Visit Free Customer Support Forum"
+msgstr "Navštivte zdarma zákaznickou podporu Forum"
+
+#: includes/class-themegrill-demo-importer.php:252
+msgid "Free Support"
+msgstr "Podpora zdarma"
+
+#: includes/admin/views/html-admin-page-importer.php:12
+#: includes/class-demo-importer.php:120
+#: includes/class-themegrill-demo-importer.php:235
+msgid "Demo Importer"
+msgstr "Demo Import"
+
+#: includes/functions-demo-importer.php:48
+msgid "Sorry, you are not allowed to install plugins on this site."
+msgstr "Je nám líto, nejste oprávněni instalovat pluginy na těchto stránkách"
+
+#: includes/admin/class-demo-pack-upgrader.php:35
+msgid "Install package not available."
+msgstr "Instalační balíček není k dispozici."
+
+#. translators: %s: package URL
+#: includes/admin/class-demo-pack-upgrader.php:37
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr "Instalační balíček je stahován z <span class=\"code\">%s</span>&#8230;"
+
+#: includes/admin/class-demo-pack-upgrader.php:38
+msgid "Unpacking the package&#8230;"
+msgstr "Rozbalování instalačního balíčku&#8230;"
+
+#: includes/admin/class-demo-pack-upgrader.php:41
+msgid "Installing the demo&#8230;"
+msgstr "Instalace pluginu&#8230;"
+
+#: includes/admin/class-demo-pack-upgrader.php:42
+msgid "The demo contains no files."
+msgstr "Plugin neobsahuje žádné soubory."
+
+#: includes/admin/class-demo-pack-upgrader.php:43
+msgid "Demo install failed."
+msgstr "Instalace pluginu se nezdařila."
+
+#: includes/admin/class-demo-pack-upgrader.php:44
+msgid "Demo installed successfully."
+msgstr "Plugin byl úspěšně nainstalován."
+
+#: includes/admin/class-demo-pack-upgrader.php:121
+msgid "No valid demos were found."
+msgstr "Nebyly nalezeny žádné platné pluginy."
+
+#: includes/admin/views/html-admin-page-importer.php:113
+#: includes/admin/views/html-admin-page-importer.php:158
+#: includes/admin/views/html-admin-page-importer.php:268
+#: assets/js/admin/demo-updates.js:114
+msgid "Live Preview"
+msgstr "Aktuální náhled"
+
+#. translators: %s: Demo name
+#: includes/admin/views/html-admin-page-importer.php:104
+msgid "<span>Imported:</span> %s"
+msgstr "<span>Import:</span> %s "
+
+#: includes/admin/views/html-admin-page-importer.php:128
+msgid "Import"
+msgstr "Import"
+
+#: includes/admin/views/html-admin-page-importer.php:130
+#: includes/admin/views/html-admin-page-importer.php:294
+msgid "Preview"
+msgstr "Náhled"
+
+#: includes/admin/views/html-admin-page-importer.php:28
+msgid "The Demo Importer screen requires JavaScript."
+msgstr "Instalační stránka pluginu vyžaduje JavaScript."
+
+#: includes/admin/views/html-admin-page-importer.php:31
+msgid "Filter demos list"
+msgstr "Seznam položek filtru"
+
+#: includes/importers/class-customizer-importer.php:36
+msgid "The customizer import file is not in a correct format. Please make sure to use the correct customizer import file."
+msgstr "Import souborů pro personalizaci není ve správném formátu. Prosím, ujistěte se, že používáte správný customizer soubor importu."
+
+#: includes/importers/class-customizer-importer.php:40
+msgid "The customizer import file is not suitable for current theme. You can only import customizer settings for the same theme or a child theme."
+msgstr "Soubor customizer import není vhodný k aktuálnímu tématu. Můžete importovat pouze nastavení personalizátoru na stejné téma."
+
+#: includes/importers/class-widget-importer.php:34
+msgid "Widget import data could not be read. Please try a different file."
+msgstr "Widget import dat nelze přečíst. Zkuste jiný soubor."
+
+#: includes/importers/class-widget-importer.php:71
+msgid "Sidebar does not exist in theme (moving widget to Inactive)"
+msgstr "Postraní panel neexistuje v šabloně (pohybující se widget neaktivní)"
+
+#: includes/importers/class-widget-importer.php:93
+msgid "Site does not support widget"
+msgstr "Web nepodporuje widgetu"
+
+#: includes/importers/class-widget-importer.php:128
+msgid "Widget already exists"
+msgstr "Blog Widget již existuje."
+
+#: includes/importers/class-widget-importer.php:187
+msgid "Imported"
+msgstr "Import"
+
+#: includes/importers/class-widget-importer.php:190
+msgid "Imported to Inactive"
+msgstr "Import do neaktivní"
+
+#: includes/importers/class-widget-importer.php:196
+msgid "No Title"
+msgstr "Bez nadpisu"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:132
+#: includes/importers/wordpress-importer/class-wxr-importer.php:141
+#: includes/importers/wordpress-importer/class-wxr-importer.php:192
+#: includes/importers/wordpress-importer/class-wxr-importer.php:196
+#: includes/importers/wordpress-importer/class-wxr-importer.php:205
+msgid "Sorry, there has been an error."
+msgstr "Omlouváme se, ale stala se nějaká nečekaná chyba."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:133
+msgid "The file does not exist, please try again."
+msgstr "Soubor neexistuje, zkuste to znovu."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:176
+msgid "All done."
+msgstr "Všechno je hotovo."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:176
+msgid "Have fun!"
+msgstr "Hodně štěstí!"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:177
+msgid "Remember to update the passwords and roles of imported users."
+msgstr "Nezapomeňte aktualizovat hesla a uživatelské úrovně importovaných uživatelů."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:213
+msgid "This WXR file (version %s) may not be supported by this version of the importer. Please consider updating."
+msgstr "Tento WXR soubor (verze %s) není touto verzí importéru podporován. Zvažte prosím aktualizaci."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:238
+msgid "Failed to import author %s. Their posts will be attributed to the current user."
+msgstr "Nepodařilo se importovat autor %s. Jejich příspěvky budou přiřazeného k běžnému uživateli."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:264
+msgid "Assign Authors"
+msgstr "Přiřazení autorů"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:267
+msgid "If a new user is created by WordPress, a new password will be randomly generated and the new user&#8217;s role will be set as %s. Manually changing the new user&#8217;s details will be necessary."
+msgstr "Pokud  bude nový uživatel vytvořený pomocí WordPressu, nové heslo bude náhodně vygenerováno a uživatelská úroveň bude nastavena na %s. Bude nutná manuální změna podrobností uživatele."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:277
+msgid "Import Attachments"
+msgstr "Importovat přílohy"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:280
+msgid "Download and import file attachments"
+msgstr "Stáhnout a importovat soubory příloh"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:284
+msgid "Submit"
+msgstr "Potvrdit"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:297
+msgid "Import author:"
+msgstr "Importovat autora:"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:309
+msgid "or create new user with login name:"
+msgstr "nebo vytvořit nového uživatele s přihlašovacím jménem:"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:312
+msgid "as a new user:"
+msgstr "jako nový uživatel:"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:322
+msgid "assign posts to an existing user:"
+msgstr "přiřadit příspěvky existujícímu uživateli:"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:324
+msgid "or assign posts to an existing user:"
+msgstr "přiřadit příspěvky existujícímu uživateli:"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:332
+msgid "- Select -"
+msgstr "-- vyberte --"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:386
+msgid "Failed to create new user for %s. Their posts will be attributed to the current user."
+msgstr "Nepodařilo se vytvořit nového uživatele %s. Jejich příspěvky budou přiřazeného k běžnému uživateli."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:438
+msgid "Failed to import category %s"
+msgstr "Nepodařilo se importovat kategorii %s"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:483
+msgid "Failed to import post tag %s"
+msgstr "Nepodařilo se importovat poštovní štítek %s"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:904
+msgid "Menu item skipped due to missing menu slug"
+msgstr "Položka nabídky vynechány z důvodu chybějící nabídky slug URL"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:911
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr "Položka nabídky vynechány z důvodu neplatných nabídek slug URL %s"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:974
+msgid "Fetching attachments is not enabled"
+msgstr "Načítání příloh není povoleno"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:987
+msgid "Invalid file type"
+msgstr "Nesprávný typ souboru"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1080
+msgid "Zero size file downloaded"
+msgstr "Stažený prázdný soubor"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1091
+msgid "Remote file is too large, limit is %s"
+msgstr "Vzdálený soubor je příliš velký a přesahuje limit %s"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1250
+msgid "Import WordPress"
+msgstr "Importovat z WordPressu"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1257
+msgid "A new version of this importer is available. Please update to version %s to ensure compatibility with newer export files."
+msgstr "Je dostupná nová verze importéru. Aktualizujte prosím na verzi %s pro zajištění kompatibility s novějšími soubory exportu."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1272
+msgid "Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import the posts, pages, comments, custom fields, categories, and tags into this site."
+msgstr "Zdravíme! Nahrajte si WordPress eXtended RSS (WXR) soubor a my naimportujeme příspěvky, stránky, komentáře, uživatelská pole, rubriky a štítky na tento web."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:1273
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr "Vyberte WXR (.xml) soubor pro nahrání, poté kliknete na nahrát soubor a importovat."
+
+#: includes/importers/wordpress-importer/class-wxr-parser-simplexml.php:29
+#: includes/importers/wordpress-importer/class-wxr-parser-simplexml.php:37
+#: includes/importers/wordpress-importer/class-wxr-parser.php:42
+msgid "There was an error when reading this WXR file"
+msgstr "Došlo k chybě při čtení tohoto souboru WXR"
+
+#: includes/importers/wordpress-importer/class-wxr-parser.php:43
+msgid "Details are shown above. The importer will now try again with a different parser..."
+msgstr "Podrobnosti jsou zobrazeny výše. Importer se o to nyní pokusí znovu odlišnou metodou..."
+
+#: includes/importers/wordpress-importer/class-wxr-parser-regex.php:96
+#: includes/importers/wordpress-importer/class-wxr-parser-simplexml.php:41
+#: includes/importers/wordpress-importer/class-wxr-parser-simplexml.php:46
+#: includes/importers/wordpress-importer/class-wxr-parser-xml.php:48
+msgid "This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr "To se nezdá být WXR soubor chyba/neplatné WXR číslo verze"
+
+#. Plugin Name of the plugin
+#. translators: %s: official ThemeGrill themes URL
+#: includes/class-demo-importer.php:243
+#: includes/class-themegrill-demo-importer.php:268
+msgid "ThemeGrill Demo Importer"
+msgstr "ThemeGrill Demo Import"
+
+#. Plugin URI of the plugin
+msgid "https://themegrill.com/demo-importer/"
+msgstr "https://themegrill.com/demo-importer/"
+
+#. Author of the plugin
+#: includes/class-demo-importer.php:600
+msgid "ThemeGrill"
+msgstr "ThemeGrill"
+
+#. Author URI of the plugin
+msgid "https://themegrill.com"
+msgstr "https://themegrill.com"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:197
+msgid "The export file could not be found at <code>%s</code>. It is likely that this was caused by a permissions problem."
+msgstr "Exportní soubor nelze nalézt na  <code>%s</code>. Je pravděpodobné, že to bylo způsobeno oprávněním."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:538
+#: includes/importers/wordpress-importer/class-wxr-importer.php:764
+msgid "Failed to import %s %s"
+msgstr "Nepodařilo se importovat %s %s"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:631
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr "Import selhal &#8220;%s&#8221;: Neplatný typ obsahu %s"
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:668
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr "%s &#8220;%s&#8221; již existuje."
+
+#: includes/importers/wordpress-importer/class-wxr-importer.php:730
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr "Nepodařilo se importovat %s &#8220;%s&#8221;"

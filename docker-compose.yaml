@@ -13,6 +13,8 @@ services:
       MYSQL_PASSWORD: admin
     volumes:
       - ./data/mysql:/var/lib/mysql
+    cap_add:
+      - SYS_NICE  # CAP_SYS_NICE
 
   #WordPress image based on Apache
   wordpress:
@@ -21,14 +23,14 @@ services:
     image: wordpress:latest
     restart: always
     ports:
-      - "8000:80"
+      - "80:80"
     environment:
       WORDPRESS_DB_HOST: db:3306
       WORDPRESS_DB_USER: admin
       WORDPRESS_DB_PASSWORD: admin
       WORDPRESS_DB_NAME: wpdb
     volumes:
-      ["./:/var/www/html"]
+      ["./wordpress:/var/www/html"]
 
   phpmyadmin:
     depends_on:
