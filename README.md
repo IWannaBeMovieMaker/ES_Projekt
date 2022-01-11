@@ -15,6 +15,7 @@ Projekt se zabývá problematikou vyhledávání na Wordpressu, hlavní částí
 #### phpMyAdmin
 * slouží pro rychlou správu WP databáze
 ## Porty jednotlivých kontejnerů
+*http://localhost:[port]*
 * WordPress :80
 * ElasticSearch :9200
 * Kibana  :5601
