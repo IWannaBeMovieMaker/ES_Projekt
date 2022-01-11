@@ -1,10 +1,29 @@
 # ES_Projekt
-* vyresit nejlepe ukazat pomoci videa logy a naseptavani
-* nejcasteji vyhledavane vyrazy
-* vylepseni synonym
-* zjistit jak najit/vyhledat historii nejcasteji vyhledavanych vyrazu nebo posledni hledane fraze
-* zvetseni pameti + maximalni kapacita
-* lepe porozumet indexovani
-* index health / lepe porozumet grafum + zajistit zeleny index health
-* rozsireni webu o nekolik stranek a clanku
-* 
+Projekt se zabývá problematikou vyhledávání na Wordpressu, hlavní částí projektu je zde pak ElasticSearch, jenž hostuje plugin ElasticPress. Ten nahrazuje jisté nedostatky Wordpressu jako je například rychlost či zátěž webu.
+## Využité technologie a jejich využití
+#### Docker
+* slouží pro vytvoření jednotného rozhraní pro odlišné kontejnery
+* výhodami jsou multiplatformnost a menší velikost
+#### WordPress
+* slouží pro vytvoření a úpravu webu
+#### ElasticSearch
+* fulltextový vyhledávač, po integraci s WP vylepšuje jeho rychlost a také na sebe bere zatížení vyvolané vyhledáváním
+#### Kibana
+* Vizualizace dat ElasticSearche
+* Grafy a logy
+* Vývojářské nástroje - možnost testování funkcí ES pomocí Query (dotazů)
+#### phpMyAdmin
+* slouží pro rychlou správu WP databáze
+## Porty jednotlivých kontejnerů
+* WordPress :80
+* ElasticSearch :9200
+* Kibana  :5601
+* phpMyAdmin  :8070
+
+### Využité pluginy
+##### ElasticPress
+* EP ve WordPressu vylepšuje funkčnost vyhledávání
+* Díky funkcím tohoto pluginu je možné si vyhledávání nastavit dle libosti
+##### WooCommerce
+* Slouží k vytvoření funkčního e-shopu zdarma
+* Má i placené části, které však nejsou potřeba (předplatné)
