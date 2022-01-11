@@ -1,5 +1,5 @@
 # ES_Projekt
-Projekt se zabývá problematikou vyhledávání na Wordpressu, hlavní částí projektu je zde pak ElasticSearch, jenž hostuje plugin ElasticPress. Ten nahrazuje jisté nedostatky Wordpressu jako je například rychlost či zátěž webu.
+Projekt se zabývá problematikou vyhledávání ve Wordpressu, hlavní částí projektu je ElasticSearch, jenž hostuje plugin ElasticPress. Ten nahrazuje jisté nedostatky Wordpressu jako je například rychlost či zátěž webu a dodává spravované stránce řadu možností pro vyhledávání, díky funkcím jimiž disponuje.
 ## Využité technologie a jejich využití
 #### Docker
 * slouží pro vytvoření jednotného rozhraní pro odlišné kontejnery
